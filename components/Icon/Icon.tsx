@@ -1,14 +1,14 @@
-import Trending from "../../public/assets/icon-play.svg";
-import Movies from "../../public/assets/icon-play.svg";
-import Tv from "../../public/assets/icon-play.svg";
-import Bookmarked from "../../public/assets/icon-play.svg";
+import Home from "../../public/assets/icon-nav-home.svg";
+import Movies from "../../public/assets/icon-nav-movies.svg";
+import Tv from "../../public/assets/icon-nav-tv-series.svg";
+import Bookmarked from "../../public/assets/icon-nav-bookmark.svg";
 
 type Props = {
   name: string;
 };
 
 const iconTypes: { [char: string]: string } = {
-  trending: Trending,
+  trending: Home,
   movies: Movies,
   tv: Tv,
   bookmarked: Bookmarked,
