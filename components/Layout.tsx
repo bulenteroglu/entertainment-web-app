@@ -6,9 +6,9 @@ type Props = {
 
 export default function Layout({ children }: Props) {
   return (
-    <div className="h-screen w-screen bg-dark-blue">
+    <div className="flex h-screen w-screen bg-dark-blue">
       <Sidebar />
-      <main>{children}</main>
+      <main className="w-full">{children}</main>
     </div>
   );
 }
